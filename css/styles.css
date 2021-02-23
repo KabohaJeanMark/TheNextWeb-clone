@@ -148,6 +148,7 @@ footer {
   position: absolute;
   color: #fff;
   top: 40%;
+  left: 3%;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -155,6 +156,7 @@ footer {
 .lower-moon-2 {
   position: absolute;
   top: 80%;
+  left: 3%;
   color: #ccc;
 }
 
@@ -197,7 +199,7 @@ footer {
 }
 
 .funding-image {
-  width: 10%;
+  width: 15%;
   position: absolute;
   padding: 15px 0 0 8px;
 }
@@ -239,4 +241,98 @@ hr {
 
 .footer-links a:hover {
   color: #fff;
+}
+
+/* Media queries for tablet */
+@media screen and (min-width: 480px) {
+  .zero-nav-line {
+    display: block;
+  }
+
+  .logo-image {
+    display: none;
+  }
+
+  .highlights {
+    flex-direction: row;
+  }
+
+  .highlight-1 {
+    width: 33%;
+    height: 40.5vh;
+    margin-right: 0.5rem;
+  }
+
+  .highlight-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .highlight-item {
+    background-size: cover;
+  }
+
+  /* footer for tablet */
+  .social-media {
+    width: 30%;
+  }
+
+  .footer-links {
+    width: 25%;
+  }
+
+  .footer-bottom {
+    display: flex;
+  }
+
+  .lower-moon {
+    top: 40%;
+    font-size: 1.2rem;
+  }
+
+  .lower-moon-2 {
+    top: 90%;
+    font-size: 0.8rem;
+  }
+
+  /* Funding section for tab */
+  .funding-links {
+    flex-direction: row;
+  }
+
+  .funding-links a {
+    padding: 0 0.5rem;
+    border-right: 1px solid #f00;
+  }
+
+  .funding-image {
+    width: 10%;
+  }
+}
+
+/*
+    =======================================================================
+                ****** MOBILE FIRST DESIGN. STYLING FOR SMALL PHONE ******
+    ========================================================================
+*/
+
+@media screen and (min-width: 768px) {
+  .funding-image {
+    width: 3%;
+  }
+
+  .pad-right {
+    padding-left: 90px;
+  }
+
+  .lower-moon {
+    top: 50%;
+    font-size: 2.2rem;
+  }
+
+  .lower-moon-2 {
+    top: 85%;
+    font-size: 1.2rem;
+  }
 }
