@@ -4,3 +4,55 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/*
+    ==============================================
+                ****** MOBILE FIRST DESIGN. STYLING FOR SMALL PHONE ******
+    ==============================================
+*/
+
+/* Styling for header section */
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 17vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.zero-nav-line {
+  height: 3vh;
+  width: 100%;
+  background-color: #000;
+  display: none;
+}
+
+.first-nav-line {
+  display: flex;
+  height: 6vh;
+  justify-content: space-between;
+}
+
+.fa-bars {
+  color: #f00;
+  padding: 0.7rem;
+}
+
+.fa-search {
+  padding: 0.7rem;
+  margin-right: 0.1rem;
+  border-right: 0.5px solid #ccc;
+  border-left: 0.5px solid #ccc;
+  color: #ccc;
+}
+
+.second-nav-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  width: 100%;
+  background-color: rgb(240, 211, 48);
+  font-size: 0.9rem;
+}
