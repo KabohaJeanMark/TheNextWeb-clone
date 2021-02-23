@@ -39,6 +39,7 @@ nav {
   display: flex;
   height: 6vh;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 .fa-bars {
@@ -63,6 +64,8 @@ nav {
   background-color: rgb(240, 211, 48);
   font-size: 0.9rem;
 }
+
+
 
 /* Footer Section */
 footer {
@@ -125,7 +128,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 18vh auto 0;
-  width: 100%;
+  width: 90%;
 }
 
 .highlight-item {
@@ -134,6 +137,7 @@ footer {
   background-repeat: no-repeat;
   height: 20vh;
   text-align: left;
+  margin-bottom: 5px;
 }
 
 .highlight-1 {
@@ -163,4 +167,80 @@ footer {
   position: absolute;
   top: 80%;
   color: #ccc;
+}
+
+/* funding */
+
+
+.funding {
+  padding: 20px;
+}
+
+.latest-funding {
+  width: 100%;
+}
+
+.funding-item {
+  padding: 20px;
+}
+
+.funding-header {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.funding a {
+  color: #f00;
+}
+
+.funding-links {
+  display:flex;
+  flex-direction: column;
+}
+
+.one {
+  background-color: #f00;
+  color: #fff; 
+  position:relative;
+}
+
+.two {
+  background-color: rgb(245, 233, 235);
+  position: relative;
+}
+
+.funding-image {
+  width: 10%;
+  position: absolute;
+  padding: 15px 0 0 8px;
+} 
+
+.pad-right {
+ padding-left: 60px;
+ padding-top: 15px;
+}
+
+.one p {
+  background-color: rgb(245, 233, 235);
+  color: black;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.grey-txt {
+  color: #ccc;
+}
+
+#item-4 {
+  display: none;
+}
+
+hr {
+  border-color: #f00;
+  box-shadow: none;
+}
+
+.sub-head {
+  color: #aaa ;
+  font-size: 0.8rem;
 }
