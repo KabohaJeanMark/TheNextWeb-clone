@@ -181,14 +181,14 @@ footer {
 }
 
 .funding-links {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
 .one {
   background-color: #f00;
   color: #fff; 
-  position:relative;
+  position: relative;
 }
 
 .two {
@@ -200,11 +200,11 @@ footer {
   width: 10%;
   position: absolute;
   padding: 15px 0 0 8px;
-} 
+}
 
 .pad-right {
- padding-left: 60px;
- padding-top: 15px;
+  padding-left: 60px;
+  padding-top: 15px;
 }
 
 .one p {
@@ -228,7 +228,7 @@ hr {
 }
 
 .sub-head {
-  color: #aaa ;
+  color: #aaa;
   font-size: 0.8rem;
 }
 
