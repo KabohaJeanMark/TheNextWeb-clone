@@ -18,12 +18,14 @@ a {
 
 /* Styling for header section */
 nav {
+  display: flex;
   position: fixed;
   top: 0;
-  display: flex;
   height: 17vh;
   width: 100%;
   flex-direction: column;
+  padding-bottom: 0;
+  z-index: 3;
 }
 
 .zero-nav-line {
@@ -64,10 +66,8 @@ nav {
 
 /* Footer Section */
 footer {
-  position: absolute;
   display: flex;
   flex-direction: column;
-  bottom: 0;
   height: 30vh;
   width: 100%;
   background-color: #000;
@@ -118,4 +118,49 @@ footer {
 .strong-bottom {
   color: #fff;
   font-weight: bold;
+}
+
+/* highlights section */
+.highlights {
+  display: flex;
+  flex-direction: column;
+  margin: 18vh auto 0;
+  width: 100%;
+}
+
+.highlight-item {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vh;
+  text-align: left;
+}
+
+.highlight-1 {
+  background-image: linear-gradient(to bottom, rgba(152, 154, 163, 0.52), rgb(7, 1, 5)), url(../images/highlight1.jpg);
+  background-color: #f00;
+}
+
+.highlight-2 {
+  background-image: linear-gradient(to bottom, rgba(152, 154, 163, 0.52), rgb(7, 1, 5)), url(../images/highlight2.png);
+  background-color: #0f0;
+}
+
+.highlight-3 {
+  background-image: linear-gradient(to bottom, rgba(152, 154, 163, 0.52), rgb(7, 1, 5)), url(../images/highlight3.png);
+  background-color: #00f;
+}
+
+.lower-moon {
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.lower-moon-2 {
+  position: absolute;
+  top: 80%;
+  color: #ccc;
 }
