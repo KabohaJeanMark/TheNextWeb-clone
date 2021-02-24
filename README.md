@@ -9,11 +9,11 @@ Mobile View
 
 Tablet View
 
-![tablet view](./images/tablet-view.png)
+![tablet view](./images/tablet-improved.png)
 
 Desktop View
 
-![desktop view](./images/desktop-view.png)
+![desktop view](./images/desktop-improved.png)
 
 ## Built With
 
