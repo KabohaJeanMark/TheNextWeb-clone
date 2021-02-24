@@ -289,6 +289,13 @@ hr {
     display: none;
   }
 
+  .second-nav-line {
+    font-size: 1rem;
+    justify-content: flex-start;
+    height: 4vh;
+    padding-left: 10px;
+  }
+
   .invisible-links {
     display: flex;
     justify-content: flex-start;
@@ -314,10 +321,6 @@ hr {
 
   .zero-nav-line a:hover {
     color: #fff;
-  }
-
-  .second-nav-line {
-    font-size: 1.2rem;
   }
 
   .highlights {
@@ -389,10 +392,6 @@ hr {
     ========================================================================
 */
 @media screen and (min-width: 769px) {
-  .second-nav-line {
-    font-size: 1.5rem;
-  }
-
   .fa-bars {
     display: none;
     color: #fff;
