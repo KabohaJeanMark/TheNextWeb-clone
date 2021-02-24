@@ -11,9 +11,9 @@ a {
 }
 
 /*
-    ==============================================
-                ****** MOBILE FIRST DESIGN. STYLING FOR SMALL PHONE ******
-    ==============================================
+    ========================================================================================
+                ****** MOBILE FIRST DESIGN. STYLING FOR SMALL, MEDIUM AND LARGE PHONE ******
+    ========================================================================================
 */
 
 /* Styling for header section */
@@ -62,7 +62,7 @@ nav {
   height: 8vh;
   width: 100%;
   background-color: rgb(240, 211, 48);
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 }
 
 /* Footer Section */
@@ -83,26 +83,29 @@ footer {
 
 .social-media a {
   padding: 0.5rem 0.6rem;
+  margin-right: 0.2rem;
   background-color: rgb(70, 67, 67);
   border-radius: 50%;
 }
 
 .footer-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 2vh auto;
-  width: 60%;
-  font-size: 0.8rem;
+  width: 50%;
+  font-size: 0.7rem;
 }
 
 .footer-links a {
   color: #ccc;
+  margin-right: 0.3rem;
+  padding: 0.1rem;
 }
 
 .footer-bottom {
   color: #ccc;
   margin: 1vh auto 0 auto;
-  width: 50%;
+  width: 60%;
   padding: 1rem;
   font-size: 0.8rem;
 }
@@ -148,13 +151,15 @@ footer {
   position: absolute;
   color: #fff;
   top: 40%;
-  font-size: 1.5rem;
+  left: 3%;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .lower-moon-2 {
   position: absolute;
   top: 80%;
+  left: 3%;
   color: #ccc;
 }
 
@@ -197,13 +202,13 @@ footer {
 }
 
 .funding-image {
-  width: 10%;
+  width: 17%;
   position: absolute;
   padding: 15px 0 0 8px;
 }
 
 .pad-right {
-  padding-left: 60px;
+  padding-left: 72px;
   padding-top: 15px;
 }
 
@@ -239,4 +244,131 @@ hr {
 
 .footer-links a:hover {
   color: #fff;
+}
+
+/*
+    =======================================================================
+                ****** TABLET ******
+    ========================================================================
+*/
+@media screen and (min-width: 481px) {
+  .zero-nav-line {
+    display: block;
+  }
+
+  .logo-image {
+    display: none;
+  }
+
+  .second-nav-line {
+    font-size: 1.2rem;
+  }
+
+  .highlights {
+    flex-direction: row;
+  }
+
+  .highlight-1 {
+    width: 33%;
+    height: 40.5vh;
+    margin-right: 0.5rem;
+  }
+
+  .highlight-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .highlight-item {
+    background-size: cover;
+  }
+
+  .lower-moon {
+    top: 50%;
+    font-size: 1.6rem;
+  }
+
+  .lower-moon-2 {
+    top: 85%;
+    font-size: 0.9rem;
+  }
+
+  /* footer for tablet */
+  .social-media {
+    width: 30%;
+  }
+
+  .footer-links {
+    width: 25%;
+  }
+
+  .footer-bottom {
+    display: flex;
+    width: 30%;
+  }
+
+  /* Funding section for tab */
+  .funding-links {
+    flex-direction: row;
+  }
+
+  .funding-links a {
+    padding: 0 0.5rem;
+    border-right: 1px solid #f00;
+  }
+
+  .funding-image {
+    width: 10%;
+  }
+
+  .funding-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .funding-item {
+    width: 32%;
+  }
+}
+
+/*
+    =======================================================================
+                ****** LAPTOP AND BIG SCREEN ******
+    ========================================================================
+*/
+@media screen and (min-width: 769px) {
+  .second-nav-line {
+    font-size: 1.5rem;
+  }
+
+  .funding-image {
+    width: 3%;
+  }
+
+  .pad-right {
+    padding-left: 90px;
+  }
+
+  .lower-moon {
+    top: 50%;
+    font-size: 2rem;
+  }
+
+  .lower-moon-2 {
+    top: 85%;
+    font-size: 1.2rem;
+  }
+
+  .funding {
+    display: flex;
+  }
+
+  .funding-item {
+    width: 24%;
+  }
+
+  #item-4 {
+    display: block;
+  }
 }
