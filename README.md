@@ -69,7 +69,7 @@ Give a ⭐️ if you like this project!
 - Hat tip to Microverse for the README template, instructions and tutoring.
 
 ## Inspirations
-- 
+- [Original site](https://perma.cc/M5ZV-Q2D6)
 
 ## 📝 License
 
