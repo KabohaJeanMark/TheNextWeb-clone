@@ -384,7 +384,7 @@ hr {
 
 /*
     =======================================================================
-                ****** LAPTOP AND BIG SCREEN ******
+                ****** SMALL LAPTOP SCREEN ******
     ========================================================================
 */
 @media screen and (min-width: 769px) {
@@ -407,16 +407,16 @@ hr {
 
   .lower-moon {
     top: 50%;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .lower-moon-2 {
-    top: 85%;
+    top: 90%;
     font-size: 0.7rem;
   }
 
   .highlight-1 .lower-moon {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .highlight-1 .lower-moon-2 {
@@ -482,5 +482,30 @@ hr {
 
   .footer-bottom {
     width: 70%;
+  }
+}
+
+/*
+    =======================================================================
+                ****** LARGE LAPTOP SCREEN ******
+    ========================================================================
+*/
+@media screen and (min-width: 1025px) {
+  .lower-moon {
+    top: 50%;
+    font-size: 2rem;
+  }
+
+  .lower-moon-2 {
+    top: 85%;
+    font-size: 0.7rem;
+  }
+
+  .highlight-1 .lower-moon {
+    font-size: 3.4rem;
+  }
+
+  .highlight-1 .lower-moon-2 {
+    top: 90%;
   }
 }
