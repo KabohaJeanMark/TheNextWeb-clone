@@ -219,13 +219,14 @@ footer {
 }
 
 .funding-image {
-  width: 17%;
+  width: 50px;
+  height: 60px;
   position: absolute;
   padding: 15px 0 0 8px;
 }
 
 .pad-right {
-  padding-left: 72px;
+  padding-left: 70px;
   padding-top: 15px;
 }
 
@@ -368,9 +369,9 @@ hr {
     flex-direction: row;
   }
 
-  .funding-image {
+  /* .funding-image {
     width: 25%;
-  }
+  } */
 
   .funding-container {
     display: flex;
@@ -395,14 +396,6 @@ hr {
   .fa-bars {
     display: none;
     color: #fff;
-  }
-
-  .funding-image {
-    width: 22%;
-  }
-
-  .pad-right {
-    padding-left: 90px;
   }
 
   .lower-moon {
