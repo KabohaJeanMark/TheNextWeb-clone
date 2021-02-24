@@ -22,7 +22,7 @@ Desktop View
 
 ## Live Demo
 
-[Live Demo Link](https://kjeanmark-thenextweb-clone.onrender.com)
+[Live Demo Link](https://kabohajeanmark.github.io/TheNextWeb-clone/)
 
 
 ## Getting Started
