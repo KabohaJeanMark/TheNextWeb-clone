@@ -219,13 +219,14 @@ footer {
 }
 
 .funding-image {
-  width: 17%;
+  width: 50px;
+  height: 60px;
   position: absolute;
   padding: 15px 0 0 8px;
 }
 
 .pad-right {
-  padding-left: 72px;
+  padding-left: 70px;
   padding-top: 15px;
 }
 
@@ -368,9 +369,9 @@ hr {
     flex-direction: row;
   }
 
-  .funding-image {
+  /* .funding-image {
     width: 25%;
-  }
+  } */
 
   .funding-container {
     display: flex;
@@ -384,7 +385,7 @@ hr {
 
 /*
     =======================================================================
-                ****** LAPTOP AND BIG SCREEN ******
+                ****** SMALL LAPTOP SCREEN ******
     ========================================================================
 */
 @media screen and (min-width: 769px) {
@@ -397,26 +398,18 @@ hr {
     color: #fff;
   }
 
-  .funding-image {
-    width: 22%;
-  }
-
-  .pad-right {
-    padding-left: 90px;
-  }
-
   .lower-moon {
     top: 50%;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .lower-moon-2 {
-    top: 85%;
+    top: 90%;
     font-size: 0.7rem;
   }
 
   .highlight-1 .lower-moon {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .highlight-1 .lower-moon-2 {
@@ -482,5 +475,30 @@ hr {
 
   .footer-bottom {
     width: 70%;
+  }
+}
+
+/*
+    =======================================================================
+                ****** LARGE LAPTOP SCREEN ******
+    ========================================================================
+*/
+@media screen and (min-width: 1025px) {
+  .lower-moon {
+    top: 50%;
+    font-size: 2rem;
+  }
+
+  .lower-moon-2 {
+    top: 85%;
+    font-size: 0.7rem;
+  }
+
+  .highlight-1 .lower-moon {
+    font-size: 3.4rem;
+  }
+
+  .highlight-1 .lower-moon-2 {
+    top: 90%;
   }
 }
