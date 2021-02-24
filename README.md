@@ -3,9 +3,17 @@
 
 > A clone website of an archived article on The Next Web to practice Responsive Web Design
 
-![screenshot](./app_screenshot.png)
+Mobile View
 
-Additional description about the project and its features.
+![mobile view](./images/mobile-view.png)
+
+Tablet View
+
+![tablet view](./images/tablet-view.png)
+
+Desktop View
+
+![desktop view](./images/desktop-view.png)
 
 ## Built With
 
@@ -14,7 +22,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](url/)
+[Live Demo Link](https://kjeanmark-thenextweb-clone.onrender.com)
 
 
 ## Getting Started
@@ -31,13 +39,19 @@ To get a local copy up and running follow these simple example steps.
 - Right click and open the index.html in your browser to view.
 
 
-## Author
+## Authors
 
 👤 **Kaboha Jean Mark**
 
 - GitHub: [@KabohaJeanMark](https://github.com/KabohaJeanMark)
 - Twitter: [@jean_quintus](https://twitter.com/jean_quintus)
 - LinkedIn: [Jean Mark Kaboha](https://www.linkedin.com/in/jean-mark-kaboha-software-engineer/)
+
+👤 **Tanzila Abedin**
+
+- GitHub: [@tanzila-abedin](https://github.com/tanzila-abedin)
+- Instagram: [@tanzi_abedin](https://www.instagram.com/tanzie_abedin/?hl=en)
+- LinkedIn: [Tanzila Abedin](https://www.linkedin.com/in/tanzila-abedin-331440b2/?originalSubdomain=za)
 
 
 ## 🤝 Contributing
