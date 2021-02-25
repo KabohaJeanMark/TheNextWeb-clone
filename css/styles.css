@@ -18,7 +18,7 @@ a {
 */
 
 /* Styling for header section */
-nav {
+.nav {
   display: flex;
   position: fixed;
   top: 0;
@@ -311,7 +311,7 @@ hr {
   }
 
   .funding-links a {
-    padding: 0 0.5rem;
+    padding: 0.5rem;
     border-right: 1px solid #f00;
   }
 
@@ -466,6 +466,7 @@ hr {
 
   .funding-links {
     font-size: 1.2rem;
+    padding: 0.8rem;
   }
 
   .third-funding-link {
@@ -499,5 +500,10 @@ hr {
 
   .highlight-1 .lower-moon-2 {
     top: 90%;
+  }
+
+  .funding-links {
+    font-size: 1.8rem;
+    padding: 1.2rem;
   }
 }
