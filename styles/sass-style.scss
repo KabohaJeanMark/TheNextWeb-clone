@@ -1,0 +1,31 @@
+@mixin flexItems($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+.highlights {
+  @include flexItems(column);
+
+  margin: 18vh auto 0;
+  width: 98%;
+}
+
+.social-media {
+  a {
+    &:hover {
+      background-color: #000;
+      border: 0.5px solid rgb(70, 67, 67);
+    }
+  }
+}
+
+/*
+    =======================================================================
+                ****** TABLET ******
+    ========================================================================
+*/
+@media screen and (min-width: 768px) {
+  .highlights {
+    @include flexItems(row);
+  }
+}
