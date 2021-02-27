@@ -80,14 +80,6 @@ footer {
   background-color: #000;
 }
 
-.footer-links {
-  display: flex;
-  justify-content: space-around;
-  margin: 2vh auto;
-  width: 50%;
-  font-size: 0.7rem;
-}
-
 .strong-bottom {
   color: #fff;
   font-weight: bold;

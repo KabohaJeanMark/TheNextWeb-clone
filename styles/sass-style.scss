@@ -14,6 +14,12 @@ $greyLink: #ccc;
 }
 
 .footer-links {
+  @include flexItems(column, space-around);
+
+  margin: 2vh auto;
+  width: 50%;
+  font-size: 0.7rem;
+
   a {
     color: $greyLink;
     margin-right: 0.3rem;
