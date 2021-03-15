@@ -1,0 +1,64 @@
+$greyLink: #ccc;
+
+@mixin flexItems($direction, $content) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $content;
+}
+
+.highlights {
+  @include flexItems(column, flex-start);
+
+  margin: 18vh auto 0;
+  width: 98%;
+}
+
+.footer-links {
+  @include flexItems(column, space-around);
+
+  margin: 2vh auto;
+  width: 50%;
+  font-size: 0.7rem;
+
+  a {
+    color: $greyLink;
+    margin-right: 0.3rem;
+    padding: 0.1rem;
+  }
+}
+
+.social-media {
+  @include flexItems(row, space-evenly);
+
+  margin: 2vh auto;
+  width: 80%;
+
+  a {
+    &:hover {
+      background-color: #000;
+      border: 0.5px solid rgb(70, 67, 67);
+    }
+  }
+}
+
+.footer-bottom {
+  @include flexItems(row, space-around);
+
+  color: $greyLink;
+  margin: 1vh auto;
+  width: 60%;
+  padding: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/*
+    =======================================================================
+                ****** TABLET ******
+    ========================================================================
+*/
+@media screen and (min-width: 768px) {
+  .highlights {
+    @include flexItems(row, flex-start);
+  }
+}
